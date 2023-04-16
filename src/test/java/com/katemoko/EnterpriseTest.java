@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class EnterpriseTest extends TestBase{
+public class EnterpriseTest extends TestBase {
     @Test
     void openEnterpriseSolutionsViaMenu() {
         open("https://github.com/");
