@@ -16,7 +16,6 @@ public class DragAndDropTest extends TestBase {
         columnA.shouldHave(text("A"));
         columnB.shouldHave(text("B"));
         columnA.dragAndDropTo(columnB);
-        sleep(5000);
         columnA.shouldHave(text("B"));
         columnB.shouldHave(text("A"));
     }
